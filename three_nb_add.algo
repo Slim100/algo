@@ -1,0 +1,23 @@
+ALGORITHM three_nb_add
+
+VAR
+i:INTEGER:=0
+str: STRING 
+" ": INTEGER:=0
+nb_vowel: INTEGER:=0
+
+    
+BEGIN
+read(str)
+FOR i FROM 1 TO str.length DO
+IF (str(i)=" ") THEN " ":=" "+1
+    set_instructions
+END_IF
+ str [ i-1 : i++] == nb-vowel:
+ nb-vowel+=1
+END_IF
+" "= str(i);
+(str.i(" ")==-1) i++;
+END_FOR
+
+END
